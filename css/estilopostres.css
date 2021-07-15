@@ -1,0 +1,337 @@
+body {
+  background-color: rgba(65, 62, 62, 0.295);
+}
+
+.contenedor1 {
+  background-color: rgba(248, 248, 242, 0.63);
+  width: 1300px;
+  height: 2100;
+  background-color: none;
+  margin: auto;
+}
+div .slider{
+  margin-top: -16px;
+}
+
+.slider {
+  width: 100%;
+  overflow: hidden;
+  margin: auto;
+  border-radius: 10px;
+  height: 650px;
+}
+
+.slider ul {
+  display: flex;
+  padding: 0;
+  width: 400%;
+
+  animation: cambio 25s infinite alternate linear;
+}
+
+.slider li {
+  width: 100%;
+  list-style: none;
+}
+
+.slider img {
+  width: 100%;
+}
+
+@keyframes cambio {
+  0% {
+    margin-left: 0;
+  }
+  20% {
+    margin-left: -100%;
+  }
+
+  25% {
+    margin-left: -100%;
+  }
+  45% {
+    margin-left: -100%;
+  }
+
+  50% {
+    margin-left: -200%;
+  }
+  70% {
+    margin-left: -200%;
+  }
+
+  75% {
+    margin-left: -300%;
+  }
+  100% {
+    margin-left: -300%;
+  }
+}
+
+.nomrestaurante p{
+  text-align: center;
+  margin-top: -450px;
+}
+
+.nomrestaurante img{
+  width: 65%;
+  margin-bottom: 95px;
+}
+
+
+.fondonav {
+  background-color: rgb(185, 185, 185);
+  height: 50px;
+}
+
+nav {
+  align-items: rigth;
+  text-align: center;
+  margin-top: -5px;
+  height: 5px;
+  padding: 15px;
+}
+
+a.vinculo:link,
+a.vinculo:visited {
+  background-color: rgb(185, 185, 185);
+  color: white;
+  font-size: 20px;
+  padding: 12px;
+  height: 250px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+a.vinculo:hover,
+a.vinculo:active {
+  background-color: black;
+}
+
+h1 {
+  font-family: cooper;
+  font-size: 50px;
+  text-align: center;
+  color: orange;
+  text-decoration: none;
+}
+.imgplato img {
+  width: 150px;
+  height: 150px;
+  border-radius: 85px;
+  border: 5px solid rgb(156, 154, 154);
+  margin-top: 35px;
+}
+
+.tplato1 h3,
+.tplato2 h3 {
+  color: maroon;
+  font-weight: bolder;
+  font-family: Comic Sans MS;
+  text-align: center;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 25px;
+}
+
+.descripcionplato {
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  width: 300px;
+}
+
+.precio {
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.tplato1 {
+  text-align: left;
+}
+.tplato2 {
+  text-align: right;
+}
+
+h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 35px;
+  color: #833737;
+  margin-top: 45px;
+}
+
+p {
+  color: #3a0e08;
+  font-style: italic;
+  font-size: 18px;
+  text-align: justify;
+}
+ul li {
+  color: #2e0808;
+  font-style: italic;
+  font-size: 18px;
+}
+
+h3 {
+  color: #833737;
+}
+
+/* Añadimos el form */
+.contenedorform{
+  width: 750px;
+  margin: auto;
+  background: #fff;
+}
+.formulario .contenedorinput{
+  padding: 20px;
+  border-radius: 6px 6px 0 0;
+  background: #fff;
+}
+.formulario input[type="text"]{
+  display: block;
+  width: 670px;
+  margin-bottom: 20px;
+  padding: 15px 20px;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  font-family: 'Slabo 13px', serif;
+  font-size: 18px;
+}
+.formulario input[type="text"]:focus, .formulario input[type="mail"]:focus{
+  border-bottom: 2px solid #246eb9;
+}
+/* .formulario .botondeopciones input[type="radio"]{
+  display: none;
+} */
+.botondeopciones{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.formulario .botondeopciones{
+  color: #424242;
+  padding: 10px 10px;
+  text-align: center;
+  font-family: 'Slabo 13px', serif;
+  font-size: 18px;
+}
+.formulario .botondeopciones label{
+  margin-left: 10px;
+}
+.formulario input[type="radio"]:checked+.botondeopciones label{
+  background-color: #f9a03f;
+  color: #fff;
+}
+.casilladeverificacion{
+  text-align: center;
+  color: #424242;
+}
+.casilladeverificacion label{
+  margin-left: 10px;
+}
+
+.formulario .error{
+  display: none;
+  margin-top: 20px;
+  border-radius: 3px;
+  background: #ce1818;
+  color:#fff;
+  padding: 15px 10px;
+  padding-left: 40px;
+}
+
+.boton{
+  width: 100%;
+  text-align: center;
+  background: #246eb9;
+  color: #fff;
+  border:none;
+  display: block;
+  padding: 15px 10px;
+  cursor: pointer;
+  border-radius: 0 0 6px 6px;
+  font-family: 'Slabo 13px', serif;
+  font-size: 18px;
+}
+
+.formulario .boton:hover{
+  background-color: #4357ad;
+}
+
+/* Fin del Form*/
+
+.delivery {
+  margin-top: 50px;
+  font-style: oblique;
+  font-size: 25px;
+  color: #f00000;
+  background-color: yellow;
+  border-radius: 100px;
+  width: 750px;
+  height: 35px;
+  margin-top: 5px;
+  text-align: center;
+  font-weight: bolder;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: auto;
+}
+
+.auspiciador1 {
+  margin-left: 60px;
+}
+
+.auspiciador2 {
+  margin-left: 680px;
+  margin-top: -319px;
+}
+
+p .refvolver {
+  margin-top: 50px;
+  text-align: right;
+}
+.volverbienvenidos {
+  text-align: center;
+  font-size: 25px;
+}
+.refvolver {
+  text-decoration: none;
+  color: darkblue;
+  align-content: right;
+}
+
+.iconosfooter {
+  text-align: center;
+  background-color: rgb(185, 185, 185);
+}
+
+.fa-facebook {
+  font-size: 60px;
+  color: #3b5998;
+  width: 90px;
+}
+
+.fa-youtube {
+  font-size: 60px;
+  width: 90px;
+  color: #f00000;
+}
+
+.fa-instagram-square{
+  font-size: 60px;
+  width: 90px;
+  color: #952ba3;
+}
+
+.fa-github-square{
+  font-size: 60px;
+  width: 90px;
+  color: #180844;
+}
+
+.fa-toolbox{
+  font-size: 60px;
+  width: 90px;
+  color: #3361b8;
+}

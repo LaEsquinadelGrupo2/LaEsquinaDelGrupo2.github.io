@@ -1,0 +1,540 @@
+body {
+  background-color: rgb(196, 204, 203);
+  width: 100%;
+}
+
+.contenedor {
+  background-color: rgba(255, 255, 255, 0.582);
+  width: 1300px;
+  height: 100%;
+  margin: auto;
+}
+
+div .fondonav{
+  margin-top: -22px;
+  margin-bottom: 15px;
+}
+
+.fondonav {
+  background-color: rgb(0, 0, 0);
+  height: 52px;
+  border-radius: 5px;
+  width: 100%;
+  position: sticky;
+  top: 0;
+}
+
+nav {
+  text-align: right;
+  margin-right: 50px;
+  height: 50px;
+  padding: 15px;
+}
+
+a.vinculo:link,
+a.vinculo:visited {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  font-size: 20px;
+  padding: 12px;
+  height: 500px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+a.vinculo:hover,
+a.vinculo:active {
+  background-color: rgb(24, 18, 18);
+  color: aqua;
+  height: 100px;
+}
+div .slider{
+  margin-top: -16px;
+}
+
+.slider {
+  width: 100%;
+  overflow: hidden;
+  margin: auto;
+  border-radius: 10px;
+  height: 650px;
+}
+
+.slider ul {
+  display: flex;
+  padding: 0;
+  width: 400%;
+
+  animation: cambio 25s infinite alternate linear;
+}
+
+.slider li {
+  width: 100%;
+  list-style: none;
+}
+
+.slider img {
+  width: 100%;
+}
+
+@keyframes cambio {
+  0% {
+    margin-left: 0;
+  }
+  20% {
+    margin-left: -100%;
+  }
+
+  25% {
+    margin-left: -100%;
+  }
+  45% {
+    margin-left: -100%;
+  }
+
+  50% {
+    margin-left: -200%;
+  }
+  70% {
+    margin-left: -200%;
+  }
+
+  75% {
+    margin-left: -300%;
+  }
+  100% {
+    margin-left: -300%;
+  }
+}
+
+.nomrestaurante p{
+  text-align: center;
+  margin-top: -450px;
+}
+
+.nomrestaurante img{
+  width: 65%;
+}
+
+.divbienvenidos {
+  margin: auto;
+  margin-top: 130px;
+  width: 80%;
+}
+
+.divlogopagina p {
+  text-align: center;
+}
+
+.divlogopagina p img {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width: 500px;
+}
+
+h1 {
+  font-family: cooper;
+  font-size: 50px;
+  text-align: center;
+  color: orange;
+  text-decoration: none;
+  margin-top: 0;
+}
+
+a {
+  text-decoration: none;
+  color: orange;
+}
+
+.imgchef img {
+  src: url(/img/chef.jpg);
+  height: 300px;
+  margin-left: 690px;
+  border-radius: 50px;
+  margin-top: -450px;
+  border: 5px solid rgb(156, 154, 154);
+  border-radius: 5px;
+}
+
+.txtbienvenidos {
+  margin-left: 70px;
+  font-family: Comic Sans MS;
+  width: 500px;
+  font-size: 23px;
+  text-align: center;
+}
+
+.fondomisionvision {
+  background-color: rgb(196, 204, 203);
+  margin-top: 120px;
+  height: 250px;
+}
+
+.mision {
+  width: 480px;
+  margin-left: 80px;
+  margin-right: 50px;
+}
+
+.mision h3 {
+  color: rgb(70, 31, 14);
+  margin-top: 0;
+  font-size: 35px;
+  font-family: cooper;
+  text-align: center;
+}
+
+.mision p {
+  text-align: center;
+  margin-top: 40px;
+  font-family: Comic Sans MS;
+  font-size: 18px;
+}
+
+.vision {
+  width: 480px;
+  margin-left: 700px;
+  margin-right: 50px;
+  margin-top: -215px;
+}
+
+.vision h3 {
+  color: rgb(70, 31, 14);
+  font-size: 35px;
+  font-family: cooper;
+  text-align: center;
+  margin-top: auto;
+}
+
+.vision p {
+  text-align: center;
+  font-family: Comic Sans MS;
+  font-size: 18px;
+}
+
+.stitulos1 {
+  margin-top: 50px;
+}
+.tcriollos {
+  width: 750px;
+  height: 25px;
+}
+
+.tcriollos h3 {
+  color: rgb(17, 129, 41);
+  text-align: center;
+  font-size: 30px;
+}
+
+.tmarinos {
+  margin-left: 500px;
+  margin-top: -55px;
+}
+
+.tmarinos h3 {
+  color: rgb(17, 129, 41);
+  text-align: center;
+  font-size: 30px;
+}
+
+.imgplato img {
+  width: 150px;
+  height: 150px;
+  border-radius: 85px;
+  border: 5px solid rgb(156, 154, 154);
+}
+
+.tplato1 h3,
+.tplato2 h3 {
+  color: maroon;
+  font-weight: bolder;
+  font-family: Comic Sans MS;
+  text-align: center;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.atitulo
+{
+  color: maroon;
+  font-weight: bolder;
+  font-family: Comic Sans MS;
+  text-align: center;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+a .descripcionplato {
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  width: 300px;
+  color: black;
+}
+
+a .precio {
+  font-weight: bolder;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  font-size: 20px;
+}
+
+.tplato1 {
+  text-align: left;
+}
+.tplato2 {
+  text-align: right;
+}
+
+.fondolocales {
+  background-color: rgb(196, 204, 203);
+  height: 840px;
+}
+
+.mapas {
+  width: 850px;
+  margin: auto;
+}
+
+.mapasede1 {
+  margin-left: 0;
+  margin-top: 0px;
+  font-size: 20px;
+}
+
+.descripcionsede1 p {
+  margin-left: 500px;
+  margin-top: -230px;
+  font-size: 20px;
+  width: 350px;
+}
+
+.sede2 {
+  margin-top: 200px;
+}
+
+.mapasede2 {
+  margin-left: 350px;
+  margin-top: 0px;
+  font-size: 20px;
+}
+
+.descripcionsede2 p {
+  margin-top: -200px;
+  font-size: 20px;
+  width: 350px;
+}
+
+.refsede {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
+
+.irbebidas {
+  background-color: #fffb00;
+  margin-top: 50px;
+  border-radius: 100px;
+  margin-left: 250px;
+  padding: 20px;
+  width: 300px;
+}
+
+.irbebidas a {
+  text-decoration: none;
+  font-family: Bernard MT Condensed;
+  font-style: italic;
+  font-size: 45px;
+  margin: auto;
+  color: #3a0b0b;
+}
+
+.irabebidas:hover,
+.irabebidas:active {
+  background-color: rgb(0, 0, 0);
+}
+
+.irpostres {
+  background-color: #fffb00;
+  margin-top: 50px;
+  border-radius: 750px;
+  margin-left: 700px;
+  padding: 20px;
+  width: 300px;
+  margin-top: -130px;
+}
+
+.irpostres a {
+  text-decoration: none;
+  font-family: Bernard MT Condensed;
+  font-style: italic;
+  font-size: 45px;
+  margin: auto;
+  color: #3a0b0b;
+}
+
+.irabebidas:hover a,
+.irabebidas:active a {
+  color: rgb(255, 255, 255);
+}
+
+
+/* Añadimos el form */
+.contenedorform{
+  width: 750px;
+  margin: auto;
+  background: #fff;
+}
+.formulario .contenedorinput{
+  padding: 20px;
+  border-radius: 6px 6px 0 0;
+  background: #fff;
+}
+.formulario input[type="text"]{
+  display: block;
+  width: 670px;
+  margin-bottom: 20px;
+  padding: 15px 20px;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  font-family: 'Slabo 13px', serif;
+  font-size: 18px;
+}
+.formulario input[type="text"]:focus, .formulario input[type="mail"]:focus{
+  border-bottom: 2px solid #246eb9;
+}
+/* .formulario .botondeopciones input[type="radio"]{
+  display: none;
+} */
+.botondeopciones{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.formulario .botondeopciones{
+  color: #424242;
+  padding: 10px 10px;
+  text-align: center;
+  font-family: 'Slabo 13px', serif;
+  font-size: 18px;
+}
+.formulario .botondeopciones label{
+  margin-left: 10px;
+}
+.formulario input[type="radio"]:checked+.botondeopciones label{
+  background-color: #f9a03f;
+  color: #fff;
+}
+.casilladeverificacion{
+  text-align: center;
+  color: #424242;
+}
+.casilladeverificacion label{
+  margin-left: 10px;
+}
+
+.formulario .error{
+  display: none;
+  margin-top: 20px;
+  border-radius: 3px;
+  background: #ce1818;
+  color:#fff;
+  padding: 15px 10px;
+  padding-left: 40px;
+}
+
+.boton{
+  width: 100%;
+  text-align: center;
+  background: #246eb9;
+  color: #fff;
+  border:none;
+  display: block;
+  padding: 15px 10px;
+  cursor: pointer;
+  border-radius: 0 0 6px 6px;
+  font-family: 'Slabo 13px', serif;
+  font-size: 18px;
+}
+
+.formulario .boton:hover{
+  background-color: #4357ad;
+}
+
+/* Fin del Form*/
+
+.delivery {
+  margin-top: 50px;
+  font-style: oblique;
+  font-size: 25px;
+  color: #f00000;
+  background-color: yellow;
+  border-radius: 100px;
+  width: 750px;
+  height: 35px;
+  margin-top: 5px;
+  text-align: center;
+  font-weight: bolder;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: auto;
+}
+
+.auspiciador1 {
+  margin-left: 100px;
+}
+
+.auspiciador2 {
+  margin-left: 700px;
+  margin-top: -304px;
+}
+
+p .refvolver {
+  margin-top: 50px;
+  text-align: right;
+}
+.volverbienvenidos {
+  text-align: center;
+  font-size: 25px;
+}
+.refvolver {
+  text-decoration: none;
+  color: darkblue;
+  align-content: right;
+}
+
+.iconosfooter {
+  text-align: center;
+  background-color: rgb(185, 185, 185);
+}
+
+.fa-facebook {
+  font-size: 60px;
+  color: #3b5998;
+  width: 90px;
+}
+
+.fa-youtube {
+  font-size: 60px;
+  width: 90px;
+  color: #f00000;
+}
+
+.fa-instagram-square{
+  font-size: 60px;
+  width: 90px;
+  color: #952ba3;
+}
+
+.fa-github-square{
+  font-size: 60px;
+  width: 90px;
+  color: #180844;
+}
+
+.fa-toolbox{
+  font-size: 60px;
+  width: 90px;
+  color: #3361b8;
+}
