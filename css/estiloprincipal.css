@@ -537,3 +537,18 @@ p .refvolver {
   width: 90px;
   color: #3361b8;
 }
+
+.divdr{
+  background-color: black;
+  height: 30px;
+}
+
+.divdr .dr{
+  text-align: center;
+  margin-top: -1px;
+  color: white;
+  font-size: 25px;
+  font-weight: bolder;
+  align-items: center;
+  justify-content: center;
+}
